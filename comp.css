@@ -1,0 +1,147 @@
+html,
+body {
+    margin: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#imgnav {
+    width: 70px;
+    height: 20px;
+}
+
+.revolutionaries {
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20%;
+    border-width: thick;
+    border-style: groove;
+    border-color: black;
+}
+
+.revolutionaries:hover {
+    border: none;
+    border-style: none;
+    box-shadow: 2px 2px 20px red;
+}
+
+.welcomeDiv {
+    margin: 35px 70px 5px 70px;
+    text-align: center;
+    color: green;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+}
+
+.welcomeDiv:hover {
+    background-image: url(25.jpg);
+    box-shadow: 2px 2px 10px green;
+    color: white;
+}
+
+.box {
+    margin: 20px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+}
+
+.baseLeaf {
+    height: 320px;
+    width: 280px;
+    background-color: mediumaquamarine;
+    margin: 20px;
+    border-radius: 20px;
+    background-image: url(34.jpg);
+    box-shadow: 2px 2px 20px orange;
+    color: white;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.baseLeaf:hover {
+    border-top-style: groove;
+    border-width: thick;
+    transition-duration: 1s;
+}
+
+.baseBox {
+    width: 90%;
+    height: 180px;
+    margin: 20px 5% 0px 5%;
+    color: red;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.top {
+    text-align: center;
+    padding: 20px;
+    color: red;
+}
+
+.baselabel {
+    color: white;
+    font-size: 25px;
+}
+
+.footer {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    margin-top: 5px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.contact {
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+#treeImage {
+    margin-left: 40px;
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px white;
+}
+
+#treeImagefooter {
+    margin-left: 100px;
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px orange;
+    font-size: larger;
+}
+
+#we {
+    width: 50%;
+    float: right;
+    margin-right: 60px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 20px red;
+}
+
+.logo:hover {
+    border-style: ridge;
+    border-color: red;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px yellow;
+}

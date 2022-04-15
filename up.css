@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+}
+
+#top_im {
+    height: 70px;
+    width: 110px;
+    margin: 0 2% 0% 2%;
+    border-radius: 70%;
+    border-width: 20%;
+    box-shadow: 5px 2px 10px orange;
+    border-width: thick;
+    border-style: double;
+    filter: brightness(90%);
+}
+
+#top_photo_div {
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+#leaf_button {
+    color: white;
+    background-image: url("19.jpg");
+    background-size: contain;
+    width: 100%;
+    font-weight: bolder;
+    height: 20%;
+    filter: brightness(90%);
+}
+
+#leaf_label {
+    margin-left: 10px;
+    box-shadow: 10px 2px 10px red;
+    background: orange;
+}
+
+#im {
+    border-radius: 90%;
+}
+#img1{
+    height: 200px;
+}
+.consumer_portal_div{
+    background-color: darkolivegreen;
+ 
+}
+#consumer_leaf{
+    margin:1% 0% 1% 1%;
+    font-size: 30px;
+    color: white;
+    box-shadow: 2px 2px 20px 2px red ;
+    padding-left: 2%;
+}
+#consumer_box{
+    margin:1% 0% 2% 1%;
+    color: white;
+    box-shadow: 2px 2px 20px 2px black ;
+    width: 20%;
+    float: left; 
+    min-width: 300px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-image: url("21.jpg");
+}
+#consumerbox_leaf{
+width: 100%;
+text-align: center;
+padding-top: 2%;
+background-color: darkolivegreen;
+box-shadow: 2px 2px 2px red;
+margin-bottom: 3%;
+
+}
